@@ -23,4 +23,8 @@ import React, { useState, Fragment } from 'react';
 or 
 use Portal
 
+Workign with refs:
+refs is better for reading, if you just need to read the values of input and not manipulate it.
+
+
 props.children - all properties from open to closing tag of the passing component. <User onAddUser={handleThis} usersList={[1,2,3]} />
