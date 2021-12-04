@@ -9,6 +9,15 @@ Add wrapper component, which return everything within the open and closing tag.
 ...
 </Wrapper>
 
-
+React provide a built-in Wrapper:
+<React.Fragment>
+</React.Fragment>
+OR
+<>
+</>
+OR 
+import React, { useState, Fragment } from 'react';
+<Fragment>
+</Fragment>
 
 props.children - all properties from open to closing tag of the passing component. <User onAddUser={handleThis} usersList={[1,2,3]} />
