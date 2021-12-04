@@ -4,3 +4,6 @@ return can be array of JSX elements - get a warning - react wants a key on each 
 
 Better solution:
 
+
+
+props.children - all properties from open to closing tag of the passing component. <User onAddUser={handleThis} usersList={[1,2,3]} />
