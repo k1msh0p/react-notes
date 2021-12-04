@@ -3,6 +3,11 @@ return one element with JXS - gotcha! - have a lot unnessacessry <div>, slow dow
 return can be array of JSX elements - get a warning - react wants a key on each element "key="test""
 
 Better solution:
+Add wrapper component, which return everything within the open and closing tag.
+
+<Wrapper>
+...
+</Wrapper>
 
 
 
