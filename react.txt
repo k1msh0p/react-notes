@@ -25,6 +25,7 @@ use Portal
 
 Workign with refs:
 refs is better for reading, if you just need to read the values of input and not manipulate it.
-
+*refs are "uncontrolled Components" - not controlling the components with react when State of the components change. we don't change the input values
+*useState - managed our state, we feed the input to the components - "controlled component" by react
 
 props.children - all properties from open to closing tag of the passing component. <User onAddUser={handleThis} usersList={[1,2,3]} />
