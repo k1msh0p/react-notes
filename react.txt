@@ -29,3 +29,6 @@ refs is better for reading, if you just need to read the values of input and not
 *useState - managed our state, we feed the input to the components - "controlled component" by react
 
 props.children - all properties from open to closing tag of the passing component. <User onAddUser={handleThis} usersList={[1,2,3]} />
+
+npm install
+npm start
