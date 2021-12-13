@@ -32,3 +32,27 @@ props.children - all properties from open to closing tag of the passing componen
 
 npm install
 npm start
+
+USEEFFECT Hook:
+
+  useEffect( () => {
+    console.log('EFFECT RUN');
+
+    return () => {
+      console.log("cleanup EFFECT")
+    }
+  }, [enteredPassword])
+
+  useEffect( () => {
+    const identifier = setTimeout(() => {
+      console.log('inside effect')
+      setFormIsValid(
+        enteredEmail.includes('@') && enteredPassword.trim().length > 6
+      );  
+    }, 500);
+
+    return () => {
+      console.log('cleanup effect');
+      clearTimeout(identifier)     
+    }; //Cleanup function
+  }, [enteredEmail, enteredPassword]);
