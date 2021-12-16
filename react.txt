@@ -56,3 +56,7 @@ USEEFFECT Hook:
       clearTimeout(identifier)     
     }; //Cleanup function
   }, [enteredEmail, enteredPassword]);
+  
+  
+  UseContext: 
+  passing values to a lot other components.
